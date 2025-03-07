@@ -1,7 +1,19 @@
+import { Outlet } from "react-router-dom"
 import "./App.css"
+import Aside from "./components/Aside"
 const App = () => {
   return (
-    <h1>teste</h1>
+    <>
+    <Aside/>
+    <div className="main-content">
+      <nav>Navbar</nav>
+      <section style={{
+        scrollBehavior: "smooth"
+      }}>
+        <Outlet/>
+      </section>
+    </div>
+    </>
   )
 }
 
