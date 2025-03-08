@@ -10,6 +10,7 @@ const Resume = () => {
             <header>
                 <h2 className='h2 article-title'>Resume</h2>
             </header>
+            {/* 
             <div className='timeline'>
                 <div className='title-wrapper'>
                     <div className='icon-box'>
@@ -35,8 +36,9 @@ const Resume = () => {
                     />
                 </ol>
             </div>
+            */}
 
-            {/* Facudade */}
+            {/* Facudade */} {/* 
             <div className='timeline'>
                 <div className='title-wrapper'>
                     <div className='icon-box'>
@@ -62,6 +64,7 @@ const Resume = () => {
                     />
                 </ol>
             </div>
+            */}
 
             {/* Skils */}
             <div className='skill'>

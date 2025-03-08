@@ -9,7 +9,7 @@ const Aside = () => {
     <aside className="sidebar">
         <div className="sidebar-info">
             <figure className="avatar-box">
-                <img src="/images/mamun.jpg" alt="" width="80"/>
+                <img src="/images/matheus1.png" alt="" width="80"/>
             </figure>
             <div className="info-content">
                 <h1 className="name">Jose matheus</h1>
@@ -32,7 +32,7 @@ const Aside = () => {
 
                     <div className="contact-info">
                         <p className="contact-title">Email</p>
-                        <a href="mailto:teste@gmail.com" className="contact-link">teste@gmail.com</a>
+                        <a href="mailto:dev.josematheus@gmail.com" className="contact-link">dev.josematheus@gmail.com</a>
                     </div>
                 </li>
                 <li className="contact-item">
@@ -41,8 +41,8 @@ const Aside = () => {
                     </div>
 
                     <div className="contact-info">
-                        <p className="contact-title">phone</p>
-                        <a href="tel:+8712345678" className="contact-link">+87 1234-5678</a>
+                        <p className="contact-title">Phone</p>
+                        <a href="tel:+8788314622" className="contact-link">+87 98831-4622</a>
                     </div>
                 </li>
                 <li className="contact-item">
@@ -51,7 +51,7 @@ const Aside = () => {
                     </div>
 
                     <div className="contact-info">
-                        <p className="contact-title">Birthday</p>
+                        <p className="contact-title">Aniversário</p>
                         <time datetime="2002-05-31" className="contact-link">31 maio 2002</time>
                     </div>
                 </li>
