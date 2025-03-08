@@ -10,6 +10,7 @@ import {
 import About from './pages/About/About.jsx';
 import Resume from './pages/Resume/Resume.jsx';
 import Portfolio from './pages/Portfolio/Portfolio.jsx';
+import Contato from './pages/Contato/Contato.jsx';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio/>
+      },
+      {
+        path: "/contato",
+        element: <Contato/>
       }
     ]
   },
